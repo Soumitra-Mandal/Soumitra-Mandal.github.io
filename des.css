@@ -1,0 +1,65 @@
+body{
+  font: normal 1em Verdana;
+  margin: 1em 10%;
+}
+h1{
+  font: italic 3em Georgia;
+  color: rgb(148,0,100);
+}
+h1 img{
+  margin-bottom: -20px;
+  max-width: 150px;
+  max-height: 150px ;
+}
+
+small{
+  color:#666666;
+}
+
+#pen{
+  max-width: 100px;
+  max-height: 100px ;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: linear-gradient(135deg, #87CEEB, #9400D3);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.bottomlink a {color:#0000FF;}         /* Unvisited link  */
+.bottomlink a:visited {color:#0000FF;} /* Visited link    */
+.bottomlink a:hover {color:YELLOW;}   /* Mouse over link */
+.bottomlink a:active {color:#FF0000;}  /* Selected link   */
+.bottomlink a:link{text-decoration: none}
+
+.button{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  color: white;
+}
+.button a{
+  text-decoration: none;
+  color: white;
+}
