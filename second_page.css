@@ -8,18 +8,10 @@ color: rgb(230,109,200);
 margin: 1em 0 1em;
 }
 body{
-width: 560px;
-height: 400px;
 background-image: url("clouds.png");
-background-position: 0px 0px;
-background-repeat: repeat-x;
 
-animation: animatedBackground 10s linear infinite;
 }
-@keyframes animatedBackground {
-from { background-position: 0 0; }
-to { background-position: 100% 0; }
-}
+
 
 .list-type1 ol{
 counter-reset: li;
