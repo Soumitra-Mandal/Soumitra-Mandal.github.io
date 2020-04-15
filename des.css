@@ -7,7 +7,7 @@ body{
 }
 h1{
   font: italic 3em Georgia;
-  color: rgb(148,0,100);
+  color: rgb(18,12,150);
 }
 h1 img{
   margin-bottom: -20px;
@@ -71,4 +71,14 @@ body, html {
 .footer{
   position: absolute;
   bottom: 70px;
+}
+.Quotes{
+  position: absolute;
+  bottom: 300px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px #000000;
+  font-size: 1.3em;
+  color: red;
 }
