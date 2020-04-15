@@ -1,13 +1,13 @@
 body{
   font: normal 1em Verdana;
   margin: 1em 10%;
-  background: linear-gradient(-45deg, #d1e231, #ffae42, #98fb98, #89cff0);
+  background: linear-gradient(-45deg, #ff7b89, #f79862, #fada5e, #ff6961);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
 }
 h1{
   font: italic 3em Georgia;
-  color: rgb(148,0,100);
+  color: #b200ff;
 }
 h1 img{
   margin-bottom: -20px;
