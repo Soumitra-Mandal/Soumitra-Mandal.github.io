@@ -72,13 +72,3 @@ body, html {
   position: absolute;
   bottom: 150px;
 }
-.Quotes{
-  position: absolute;
-  bottom: 350px;
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  text-shadow: 2px 3px 5px #000000;
-  font-size: 1.3em;
-  color: blue;
-}
