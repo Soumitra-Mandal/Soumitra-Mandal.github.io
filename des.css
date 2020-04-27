@@ -1,27 +1,9 @@
 body{
   font: normal 1em Verdana;
   margin: 1em 10%;
-  background: linear-gradient(-45deg, #d1e231, #ffae42, #98fb98, #89cff0);
+  background: linear-gradient(-45deg, #d1e231, #ffae42, #98fb98, #00bfff);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
-}
-h1{
-  font: italic 3em Georgia;
-  color: rgb(18,12,150);
-}
-h1 img{
-  margin-bottom: -20px;
-  max-width: 150px;
-  max-height: 150px ;
-}
-
-small{
-  color:#666666;
-}
-
-#pen{
-  max-width: 100px;
-  max-height: 100px ;
 }
 body, html {
   height: 100%;
@@ -32,6 +14,7 @@ body, html {
 
   padding-left: 10px;
   padding-top: 10px;
+  padding-bottom: 5px;
 }
 @keyframes gradient {
 	0% {
@@ -44,16 +27,82 @@ body, html {
 		background-position: 0% 50%;
 	}
 }
+h1
+{
+  background: -webkit-linear-gradient(cyan,purple);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+  font-family: serif;
+  position: relative;
+  text-align: center;
+}
 
+h3
+{
+  color: gray;
+  font-family: serif;
+  text-align: center;
+}
+h4{
+ letter-spacing: 5px;
+ text-align: center;
+}
+.n{
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  font-family: cursive;
+  color: olive;
+  margin: 0;
+}
+.n:first-letter {font-size: 200%; color: orange;}
 
-.bottomlink a {color:#0000FF;}         /* Unvisited link  */
-.bottomlink a:visited {color:#0000FF;} /* Visited link    */
-.bottomlink a:hover {color:YELLOW;}   /* Mouse over link */
-.bottomlink a:active {color:#FF0000;}  /* Selected link   */
-.bottomlink a:link{text-decoration: none}
+#why{
+  font-family: serif;
+  margin: 0;
+}
+.weather-container{
+  border: 1px solid blue;
+  background: lightblue;
+  text-align: center;
+}
+#weather{
+  font-size: 22px;
+  margin: 0;
+}
+#temp{
+  font-size: 20px;
+  margin: 0;
+  font-weight: bold;
+}
+#cityn{
+  font-size: 20px;
+  font-family: fantasy;
+  font-weight:400;
+}
+.icon{
+  margin = 0;
+  max-width: 100px;
+  max-height: 100px;
+}
+.choice{
+  text-align: inherit;
+
+}
+h3{
+  font-weight: bold;
+  font-style: italic;
+  color: brown;
+}
+
+h1 img{
+  margin-bottom: -20px;
+  max-width: 150px;
+  max-height: 150px ;
+}
 
 .button{
-  background-color: #4CAF50;
+  background-color: purple;
   border: none;
   color: white;
   padding: 12px 25px;
@@ -62,13 +111,36 @@ body, html {
   font-size: 20px;
   margin: 4px 2px;
   cursor: pointer;
-  color: white;
 }
 .button a{
   text-decoration: none;
   color: white;
 }
-.footer{
-  position: absolute;
-  bottom: 150px;
+.bottomlink{
+  padding-bottom: 5px;
+}
+
+.bottomlink a {color:#0000FF;}         /* Unvisited link  */
+.bottomlink a:visited {color:#0000FF;} /* Visited link    */
+.bottomlink a:hover {color:YELLOW;}   /* Mouse over link */
+.bottomlink a:active {color:#FF0000;}  /* Selected link   */
+.bottomlink a:link{text-decoration: none}
+small{
+  color:#666666;
+}
+
+#pen{
+  max-width: 100px;
+  max-height: 100px ;
+}
+#per{
+  font-style: italic;
+  color: blue;
+}
+
+#enter{
+  cursor: pointer;
+  color: white;
+  background-color: blue;
+
 }

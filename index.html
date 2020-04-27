@@ -1,22 +1,40 @@
 <!DOCTYPE html>
-<head>
-  <title>BOOK CLUB!</title>
-  <link rel="stylesheet" href="des.css" type="text/css">
-</head>
-<div class="bg">
-<body>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Book Club</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
+    <link rel="stylesheet" href="des.css">
+    <script type="text/javascript" src="index_script.js">
 
-
-<script type="text/javascript" src="index_script.js">
-</script>
-<h1><img src="book1.gif" alt="book illustration"><u>Soumi's Book Club</u></h1>
-
-<h3>If you like reading <strong>textbooks,novels and biographies</strong>, you are at the right place!
-We provide thousands of books at your fingertips with utmost ease and ensure no hassle with your free membership.
-<em>A new chapter starts here!</em></h3>
-<p>My <em>AIM</em> is to provide all my favourite ebooks for free.</p>
+    </script>
+  </head>
+  <div class="bg">
+  <body onload="weatherfunc()">
+<h1><img src="book1.gif" alt="book illustration">SOUMI'S BOOK CLUB</h1>
+<h3>A place where you can find your <em>soul-books!</em></h3>
+<h4 id="why">WHY READ BOOKS?</h4>
+<p class="n">coz that's the best thing one can do!</p>
 <center><button type="button" class="button"><a href="genre.html">Browse Books</a></button></center>
+
+<div class="weather-container">
+  <div class="choice">
+    <h3>Quick Weather For You:</h3>
+    <h4>Enter City:</h4>
+    <input type="text" id="C" value="Bhubaneswar">
+    <button type="button" name="button" id="enter" onclick="weatherfunc()">Enter</button>
+  </div>
+  <p id="cityn"></p>
+  <img class="icon">
+  <p></p>
+  <p id="weather"></p>
+  <p id="temp"></p>
+  <h2 id="per">Ah! The Perfect Weather to Read Books!</h2>
+
+</div>
+
+</div>
 <p><img src="pen.gif" alt="Sorry" id="pen"> Your Pal, Soumitra at Soumi's Book Club</p>
 <div class="bottomlink">
   <a href="privacy.txt">Privacy Policy</a>
@@ -27,7 +45,6 @@ We provide thousands of books at your fingertips with utmost ease and ensure no 
 <hr>
 <p><small>&copy 2020, Soumitra Mandal</small></p>
 </div>
-</div>
-</body>
+  </body>
 </div>
 </html>
