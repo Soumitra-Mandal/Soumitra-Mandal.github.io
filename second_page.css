@@ -1,9 +1,9 @@
 .list-type1{
-width:400px;
+width:550px;
 margin:0 auto;
 }
 h1{
-font: italic 3em Georgia;
+font: italic 4em Georgia;
 color: #1e1b23;
 margin: 1em 0 1em;
 }
@@ -23,7 +23,7 @@ to { background-position: 100% 0; }
 counter-reset: li;
 list-style: none;
 *list-style: decimal;
-font-size: 15px;
+font-size: 30px;
 font-family: 'Raleway', sans-serif;
 padding: 0;
 margin-bottom: 4em;
