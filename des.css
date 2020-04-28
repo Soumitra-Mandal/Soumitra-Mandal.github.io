@@ -108,8 +108,8 @@ h1 img{
   font-size: 20px;
   margin: 4px 2px;
   cursor: pointer;
-  min-width: 100px;
-  min-height: 100px;
+  min-width: 300px;
+  min-height: 150px;
 }
 .button a{
   text-decoration: none;
