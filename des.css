@@ -105,11 +105,11 @@ h1 img{
   padding: 12px 25px;
   text-align: center;
   display: inline-block;
-  font-size: 50px;
+  font-size: 35px;
   margin: 4px 2px;
   cursor: pointer;
-  min-width: 250px;
-  min-height: 100px;
+  min-width: 240px;
+  min-height: 90px;
 }
 .button a{
   text-decoration: none;
@@ -141,5 +141,13 @@ small{
   cursor: pointer;
   color: white;
   background-color: blue;
-
+  min-width: 30px;
+  min height: 20px;
+  font-size: 10px;
+}
+#C
+{
+  max-width: 50px;
+  max-height: 20px;
+  font-size: 10px;
 }
