@@ -105,11 +105,11 @@ h1 img{
   padding: 12px 25px;
   text-align: center;
   display: inline-block;
-  font-size: 20px;
+  font-size: 50px;
   margin: 4px 2px;
   cursor: pointer;
-  min-width: 300px;
-  min-height: 150px;
+  min-width: 250px;
+  min-height: 100px;
 }
 .button a{
   text-decoration: none;
