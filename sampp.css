@@ -63,7 +63,7 @@ font-size: 20px;
 }
 .links a {color:#FFFFFF;}         /* Unvisited link  */
 .links a:visited {color:#FFFFFF;} /* Visited link    */
-.links a:hover {color:YELLOW;}   /* Mouse over link */
+.links a:hover {color:orange;}   /* Mouse over link */
 .links a:active {color:#FF0000;}  /* Selected link   */
 .links a:link{text-decoration: none}
 .links{
