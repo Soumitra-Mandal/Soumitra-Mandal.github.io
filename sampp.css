@@ -1,0 +1,72 @@
+html
+{
+  background-image: url("zm.jpg");
+
+
+
+}
+
+h1{
+  color: yellow;
+  font-family: serif;
+  text-align: center;
+
+}
+
+h2{
+  font-family: cursive;
+  text-align: center;
+  font-size: 24px;
+  color: white;
+}
+h3
+{
+  font-size: 20px;
+}
+#C{
+  font-family: serif;
+  margin: 0;
+  position: absolute;
+  left: 43%;
+  min-height: 20px;
+  min width: 80px;
+  font-size: 20px;
+}
+
+button{
+  font-family: serif;
+  margin: 40px;
+  position: absolute;
+  left: 46%;
+  min-width: 70px;
+  min-height:25px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: purple;
+  color: white;
+
+}
+
+.D
+{
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  margin:100px;
+text-align: center;
+list-style: inside;
+color: white;
+font-size: 20px;
+}
+#w
+{
+  font-size: 22px;
+}
+.links a {color:#FFFFFF;}         /* Unvisited link  */
+.links a:visited {color:#FFFFFF;} /* Visited link    */
+.links a:hover {color:YELLOW;}   /* Mouse over link */
+.links a:active {color:#FF0000;}  /* Selected link   */
+.links a:link{text-decoration: none}
+.links{
+  position: absolute;
+  left:49%;
+}
