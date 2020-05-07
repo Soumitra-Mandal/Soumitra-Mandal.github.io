@@ -22,7 +22,7 @@ function(data)
 
   }
   var sound_url="https://media.merriam-webster.com/soundc11/"+subdirectory+"/"+base+".wav";
-  var s='<audio src="'+sound_url+'" controls>Your Browser Does not Support Audio Element.</audio>'
+  var s='<audio src="'+sound_url+'" controls>Your Browser Does not Support Audio Element.</audio>';
   $(".sounds").html(s);
   pron=data[0].hwi.prs[0].mw;
   $("#w").text(word.charAt(0).toUpperCase()+word.substr(1).toLowerCase() + "   ("+pron+")");

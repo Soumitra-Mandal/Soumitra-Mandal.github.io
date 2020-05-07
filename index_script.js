@@ -1,3 +1,4 @@
+
 function weatherfunc(){
 var city= document.getElementById("C").value;
 $.getJSON("https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?q="+ city + "&units=metric&APPID=70207a5efd2148a93db198be86385483",function(data){
