@@ -1,13 +1,17 @@
-body{
-  font: normal 1em Verdana;
-  margin: 1em 10%;
-  background: linear-gradient(-45deg, #d1e231, #ffae42, #98fb98, #00bfff);
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
+html,body{
+  heigth:100%;width:100%;min-height:100%;position:relative;oberflow:hidden;
+  color:#ffffff;
 }
-body, html {
-  height: 100%;
-  margin: 0;
+body {
+  background: #45484d; /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover,  #45484d 0%, #000000 100%); /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#45484d), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover,  #45484d 0%,#000000 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover,  #45484d 0%,#000000 100%); /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover,  #45484d 0%,#000000 100%); /* IE10+ */
+  background: radial-gradient(ellipse at center,  #45484d 0%,#000000 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  text-align:center;
 }
 
 .bg {
@@ -16,24 +20,15 @@ body, html {
   padding-top: 10px;
   padding-bottom: 5px;
 }
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
+
 h1
 {
-  background: -webkit-linear-gradient(cyan,purple);
+  background:linear-gradient(0deg,cyan,purple);
  -webkit-background-clip: text;
  -webkit-text-fill-color: transparent;
   font-family: serif;
   position: relative;
+  left:-3%;
   text-align: center;
 }
 
@@ -62,9 +57,9 @@ h4{
   margin: 0;
 }
 .weather-container{
-  border: 1px solid blue;
-  background: lightblue;
+  background: rgba(173,216,230,0);
   text-align: center;
+
 }
 #weather{
   font-size: 22px;
@@ -89,7 +84,7 @@ h4{
 h3{
   font-weight: bold;
   font-style: italic;
-  color: brown;
+  color: yellow;
 }
 
 h1 img{
@@ -119,10 +114,10 @@ h1 img{
   padding-bottom: 5px;
 }
 
-.bottomlink a {color:#0000FF;}         /* Unvisited link  */
-.bottomlink a:visited {color:#0000FF;} /* Visited link    */
-.bottomlink a:hover {color:YELLOW;}   /* Mouse over link */
-.bottomlink a:active {color:#FF0000;}  /* Selected link   */
+.bottomlink a {color:yellow;}         /* Unvisited link  */
+.bottomlink a:visited {color:yellow;} /* Visited link    */
+.bottomlink a:hover {color:cyan;}   /* Mouse over link */
+.bottomlink a:active {color:white;}  /* Selected link   */
 .bottomlink a:link{text-decoration: none}
 small{
   color:#666666;
@@ -134,7 +129,7 @@ small{
 }
 #per{
   font-style: italic;
-  color: blue;
+  color: cyan;
 }
 
 #enter{
