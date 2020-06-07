@@ -30,11 +30,13 @@ function(data)
   var ht = "";
   for(var k=0; k<3;k++){
     if(typeof(data[k])!="undefined")
-    {ht+="<b>"+data[k].fl.charAt(0).toUpperCase()+data[k].fl.substr(1).toLowerCase()+":</b><ol>";
-  for (var i =0; i < data[k].shortdef.length; i++) {
+    {
+      ht+="<b>"+data[k].fl.charAt(0).toUpperCase()+data[k].fl.substr(1).toLowerCase()+":</b><ol>";
+      for (var i =0; i < data[k].shortdef.length; i++) {
       ht += "<li>" + data[k].shortdef[i]+ "</li>"; }
       ht+="</ol>";}
-      else{
+      else
+      {
         continue;
       }
       }
