@@ -1,0 +1,154 @@
+.header
+{
+  background-image: url("x.jpg");
+  height:800px;
+  background-size:cover;
+  filter: blur(3px);
+
+}
+
+.middle{
+  background-color: pink;
+  height:800px;
+}
+
+.end{
+  background-color: yellow;
+  height:800px;
+}
+body, h1, h2, p, button, a{
+  margin:0;
+  padding:0;
+}
+
+h1{
+  position: absolute;
+  top:270px;
+  left:22%;
+  color:#ffff;
+  font-family: monospace;
+  font-size: 50px;
+  border: solid 2px;
+  padding: 10px;
+  animation: glow 0.7s ease-in-out infinite alternate;
+
+}
+@keyframes glow {
+  from{
+    text-shadow: 0 0 5px #bbbb, 0 0 10px #bbbb, 0 0 15px aqua, 0 0 20px , 0 0 25px aqua, 0 0 30px aqua, 0 0 35px aqua;
+
+  }
+  to{
+    text-shadow: 0 0 5px #bbbb, 0 0 10px #bbbb, 0 0 15px red, 0 0 20px red, 0 0 25px red,  0 0 30px red,  0 0 35px red;
+
+  }
+}
+
+
+p{
+  position: absolute;
+  top:400px;
+  left:24%;
+  color:white;
+  font-size: 30px;
+  transform-origin: left;
+  transform:scaleX(1);
+  transition-duration: 0.5s;
+}
+
+#btn1{
+  position: absolute;
+  top: 5px;
+  right:215px;
+  font-size: 20px;
+  width:100px;
+  background-color: rgba(255,255,255,0.3);
+  border: 1px solid white;
+  color: white;
+  font-family: consolas;
+  cursor: pointer;
+
+}
+
+#btn2{
+  position: absolute;
+  top: 5px;
+  right: 110px;
+  font-size: 20px;
+  width:100px;
+  background-color: rgba(255,255,255,0.3);
+  border: 1px solid white;
+  color: white;
+  font-family: consolas;
+  cursor: pointer;
+
+}
+
+#btn3{
+  position: absolute;
+  top: 5px;
+  right:5px;
+  font-size: 20px;
+  width:100px;
+  background-color: rgba(255,255,255,0.3);
+  border: 1px solid white;
+  color: white;
+  font-family: consolas;
+  cursor: pointer;
+
+}
+
+#btn1:hover {
+  color: black;
+  background-color: rgba(255,255,255,1);
+
+}
+#btn2:hover {
+  color: black;
+  background-color: rgba(255,255,255,1);
+
+}
+
+#btn3:hover {
+  color: black;
+  background-color: rgba(255,255,255,1);
+
+}
+a:link
+{
+  color: white;
+  text-decoration: none;
+}
+
+a:active, a:visited
+{
+ color: white;
+}
+a:hover{
+  color: black;
+
+}
+
+h2{
+position: absolute;
+top: 820px;
+left:43.5%;
+font-size: 40px;
+}
+
+.a, .b{
+  position: absolute;
+  top: 870px;
+  height:700px;
+  width:500px;
+}
+
+.a{
+  left: 10%;
+  background-color: grey;
+}
+
+.b{
+  right:10%;
+  background-color: aqua;
+}
