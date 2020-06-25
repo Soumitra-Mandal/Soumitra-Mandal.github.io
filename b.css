@@ -1,5 +1,5 @@
 img{
-   filter: blur(8px);
+   filter: blur(4px);
   height: 93vh;
 
 }
@@ -26,4 +26,19 @@ h1{
   font-family: "Ubuntu";
   top:155px;
   color: white;
+}
+
+#cardim{
+  height: 35vh;
+  display: block;
+  filter: blur(0px);
+
+}
+
+.card{
+  color: black;
+  width:50vh;
+  position: absolute;
+left: 90vh;
+
 }
