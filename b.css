@@ -14,7 +14,7 @@ h1{
   top:100px;
   color: #fff;
   text-align: center;
-  text-shadow: 0 0 4px #fff, 0 0 8px #fff, 0 0 12px indigo, 0 0 16px indigo, 0 0 20px indigo, 0 0 24px indigo, 0 0 28px indigo;
+  text-shadow: 0 0 4px #fff, 0 0 8px #fff, 0 0 12px #03a9f4, 0 0 16px #03a9f4, 0 0 20px #03a9f4, 0 0 24px #03a9f4, 0 0 28px #03a9f4;
 }
 
 #this{
