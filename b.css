@@ -42,3 +42,10 @@ h1{
 left: 90vh;
 
 }
+
+.jumbotron{
+  background-image: url('u.jpg');
+  background-size: auto;
+  font-family: "Ubuntu";
+
+}
