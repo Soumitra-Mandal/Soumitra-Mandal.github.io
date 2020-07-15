@@ -53,14 +53,17 @@ img{
   height: 35vh;
   display: block;
   filter: blur(0px);
+
+
 }
 
 
 .card{
   color: black;
-  width:50vh;
+  width:55vh;
   position: absolute;
-  left: 90vh;
+  left: 85vh;
+  top:-10vh;
 }
 
 @media only screen and (max-width: 480px) {
@@ -68,7 +71,6 @@ img{
   #cardim{
 
     height: 16vh;
-    top:15vh;
     }
 
 }
@@ -77,6 +79,7 @@ img{
   .card{
     width:60vw;
     left:20vw;
+    top:15vh;
 
     }
 
