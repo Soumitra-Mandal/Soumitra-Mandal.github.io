@@ -9,7 +9,7 @@ h1{
   position: absolute;
   left:5%;
   font-family: 'Ubuntu';
-  top:100px;
+  top:10%;
   color: #fff;
   text-align: center;
   text-shadow: 0 0 3px #fff, 0 0 6px #fff, 0 0 9px #03a9f4, 0 0 12px #03a9f4, 0 0 15px #03a9f4, 0 0 18px #03a9f4, 0 0 21px #03a9f4;
@@ -17,13 +17,13 @@ h1{
 }
 
 @media only screen and (max-width: 500px) {
-    h1 {
+    #hello{
         font-size: 10px;
     }
 }
 
-@media (max-width: 500px) {
-    h3 {
+@media only screen and  (max-width: 500px) {
+    #this{
         font-size: 10px;
     }
 }
@@ -34,7 +34,7 @@ h1{
   position: absolute;
   left:5%;
   font-family: "Ubuntu";
-  top:155px;
+  top:19%;
   color: white;
 }
 
