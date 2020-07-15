@@ -4,25 +4,26 @@ img{
 
 }
 
-h1{
+#hello{
   padding: 0;
   margin:0;
   position: absolute;
-  left:15%;
+  left:5%;
   font-family: 'Ubuntu';
-  font-size: 230%;
+  font-size: xx-large;
   top:100px;
   color: #fff;
   text-align: center;
-  text-shadow: 0 0 4px #fff, 0 0 8px #fff, 0 0 12px #03a9f4, 0 0 16px #03a9f4, 0 0 20px #03a9f4, 0 0 24px #03a9f4, 0 0 28px #03a9f4;
+  text-shadow: 0 0 3px #fff, 0 0 6px #fff, 0 0 9px #03a9f4, 0 0 12px #03a9f4, 0 0 15px #03a9f4, 0 0 18px #03a9f4, 0 0 21px #03a9f4;
+
 }
 
 #this{
   padding: 0;
   margin:0;
   position: absolute;
-  left:15%;
-  font-size: 200%;
+  left:5%;
+  font-size: x-large;
   font-family: "Ubuntu";
   top:155px;
   color: white;
