@@ -10,7 +10,7 @@ h1{
   position: absolute;
   left:15%;
   font-family: 'Ubuntu';
-  font-size: 2.3vw;
+  font-size: 230%;
   top:100px;
   color: #fff;
   text-align: center;
@@ -22,7 +22,7 @@ h1{
   margin:0;
   position: absolute;
   left:15%;
-  font-size: 2vw;
+  font-size: 200%;
   font-family: "Ubuntu";
   top:155px;
   color: white;
