@@ -16,15 +16,15 @@ h1{
 
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 480px) {
     #hello{
-        font-size: 10px;
+        font-size: 10vh ;
     }
 }
 
-@media only screen and  (max-width: 500px) {
+@media only screen and  (max-width: 480px) {
     #this{
-        font-size: 10px;
+        font-size: 10vh;
     }
 }
 
