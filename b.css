@@ -55,13 +55,6 @@ img{
   filter: blur(0px);
 }
 
-@media only screen and (max-width: 480px) {
-
-  #cardim{
-
-    }
-
-}
 
 .card{
   color: black;
@@ -72,7 +65,18 @@ img{
 
 @media only screen and (max-width: 480px) {
 
+  #cardim{
+
+    height: 16vh;
+    top:15vh;
+    }
+
+}
+@media only screen and (max-width: 480px) {
+
   .card{
+    width:60vw;
+    left:20vw;
 
     }
 
