@@ -19,6 +19,8 @@ img{
 @media only screen and (max-width: 480px) {
     #hello{
         font-size: 2.3vh;
+        top:3vh;
+        left:30vw;
     }
 
 }
@@ -38,7 +40,9 @@ img{
 
   #this{
     font-size: 2vh;
-    top: 2.3vh;
+    top: 7.6vh;
+    left:30vw;
+
   }
 
 }
@@ -68,7 +72,7 @@ img{
 @media only screen and (max-width: 480px) {
 
   .card{
-    
+
     }
 
 }
