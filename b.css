@@ -22,6 +22,14 @@ h1{
     }
 
 }
+@media only screen and (max-width: 480px) {
+
+  #this{
+    font-size: 2vh;
+    top: 2.3vh;
+  }
+
+}
 
 
 #this{
