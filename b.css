@@ -10,7 +10,7 @@ img{
   position: absolute;
   left:5%;
   font-family: 'Ubuntu';
-  font-size: xx-large;
+  font-size: 5vh;
   top:100px;
   color: #fff;
   text-align: center;
@@ -23,7 +23,7 @@ img{
   margin:0;
   position: absolute;
   left:5%;
-  font-size: x-large;
+  font-size: 4vh;
   font-family: "Ubuntu";
   top:155px;
   color: white;
