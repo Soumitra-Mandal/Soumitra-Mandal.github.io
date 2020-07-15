@@ -20,11 +20,17 @@ h1{
     #hello{
         font-size: 2.3vh ;
     }
-    #this{
-      font-size: 5vh;
-      top: 2.3vh;
-    }
+
 }
+@media only screen and (max-width: 480px) {
+
+  #this{
+    font-size: 2vh;
+    top: 2.3vh;
+  }
+
+}
+
 
 #this{
   padding: 0;
