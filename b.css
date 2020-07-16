@@ -80,5 +80,14 @@ img{
       top:0vh;
 
       }
-
+      h5 , .quote{
+        position: absolute;
+        text-align: center;
+      }
+      h5{
+        bottom: 5vh;
+      }
+      .quote{
+        bottom: 3vh;
+      }
 }
