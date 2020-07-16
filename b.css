@@ -29,24 +29,6 @@ img{
   color: white;
 }
 
-@media only screen and (max-width: 480px) {
-
-  #this{
-    font-size: 2vh;
-    top: 7.6vh;
-    left:20vw;
-    text-align: center;
-
-  }
-  #hello{
-      font-size: 2.3vh;
-      top:3vh;
-      left:30vw;
-  }
-
-
-}
-
 
 #cardim{
   height: 35vh;
@@ -65,29 +47,38 @@ img{
   top:-10vh;
 }
 
-@media only screen and (max-width: 480px) {
-
-  #cardim{
-
-    height: 16vh;
-    }
-
-}
-@media only screen and (max-width: 480px) {
-
-  .card{
-    width:60vw;
-    left:20vw;
-    top:15vh;
-
-    }
-
-}
 
 
 .jumbotron{
   background-image: url('u.jpg');
   background-size: auto;
   font-family: "Ubuntu";
+}
+
+@media only screen and (max-width: 480px) {
+
+  #this{
+    font-size: 2vh;
+    top: 7.6vh;
+    left:20vw;
+    text-align: center;
+
+  }
+  #hello{
+      font-size: 2.3vh;
+      top:3vh;
+      left:30vw;
+  }
+  #cardim{
+
+    height: 16vh;
+    }
+
+    .card{
+      width:60vw;
+      left:20vw;
+      top:15vh;
+
+      }
 
 }
