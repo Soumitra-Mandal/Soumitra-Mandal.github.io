@@ -30,25 +30,6 @@ img{
 }
 
 
-#cardim{
-  height: 35vh;
-  filter: blur(0px);
-
-
-}
-
-
-.card{
-  color: black;
-  width:55vh;
-  position: absolute;
-  left: 85vh;
-  top:-10vh;
-  z-index: 1;
-}
-
-
-
 .jumbotron{
   background-image: url('u.jpg');
   background-size: auto;
@@ -80,14 +61,10 @@ img{
       top:0vh;
 
       }
-      h5 , .quote{
-        position: absolute;
-        text-align: center;
+      .jumbotron{
+        width:40vw;
+        height:20vh;
+        font-size: 2vh;
       }
-      h5{
-        bottom: 5vh;
-      }
-      .quote{
-        bottom: 3vh;
-      }
+
 }
