@@ -32,7 +32,6 @@ img{
 
 #cardim{
   height: 35vh;
-  display: block;
   filter: blur(0px);
 
 
@@ -45,6 +44,7 @@ img{
   position: absolute;
   left: 85vh;
   top:-10vh;
+  z-index: 1;
 }
 
 
@@ -75,9 +75,9 @@ img{
     }
 
     .card{
-      width:60vw;
-      left:20vw;
-      top:15vh;
+      width:40vw;
+      left:30vw;
+      top:0vh;
 
       }
 
