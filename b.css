@@ -16,14 +16,7 @@ img{
 
 }
 
-@media only screen and (max-width: 480px) {
-    #hello{
-        font-size: 2.3vh;
-        top:3vh;
-        left:30vw;
-    }
 
-}
 
 
 #this{
@@ -45,6 +38,12 @@ img{
     text-align: center;
 
   }
+  #hello{
+      font-size: 2.3vh;
+      top:3vh;
+      left:30vw;
+  }
+
 
 }
 
