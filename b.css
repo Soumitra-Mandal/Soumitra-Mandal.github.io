@@ -1,6 +1,6 @@
 
 body{
-  background-image: url('s.jpg');
+  background-image: url('u1.jpg');
   background-size:cover;
 }
 #hello{
@@ -28,9 +28,11 @@ div{
 
 .bd{
   color: #fff;
-  border: solid 1px white;
-  background-color: rgba(0, 0, 0, 0.8);
+  border: solid 1px lightblue;
+  background-color: rgba(0, 0, 0, 0.6);
   font-family: "Ubuntu";
+  padding:2px;
+  margin-bottom: 5px;
 
 
 
@@ -39,4 +41,14 @@ div{
 
 .intro{
 text-align: center;
+}
+
+
+.quote{
+  color: #fff;
+  font-family: 'Ubuntu';
+}
+
+.row{
+  padding-left: 20vw;
 }
