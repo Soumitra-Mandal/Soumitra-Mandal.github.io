@@ -54,9 +54,8 @@ text-align: center;
 }
 
 @media only screen and (max-width: 768px) {
-.card{
-  max-height:30vh;
-  max-width:15vh;
+.card-title, .card-text{
+
   font-size: 1.2vh;
 
 }
@@ -64,6 +63,6 @@ text-align: center;
   padding-left: 0;
 }
 .quote{
-  font-size: 1.5vh;
+  font-size: 1.2vh;
 }
 }
