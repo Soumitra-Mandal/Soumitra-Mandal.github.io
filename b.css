@@ -57,8 +57,13 @@ text-align: center;
 .card{
   max-height:10vh;
   max-width:5vh;
+  font-size: 1.5vh;
+
+}
+.row{
+  padding-left: 0;
 }
 .quote{
-  font-size: 2vh;
+  font-size: 1.8vh;
 }
 }
