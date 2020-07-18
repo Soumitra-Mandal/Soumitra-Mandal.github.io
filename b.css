@@ -55,15 +55,15 @@ text-align: center;
 
 @media only screen and (max-width: 768px) {
 .card{
-  max-height:10vh;
-  max-width:5vh;
-  font-size: 1.5vh;
+  max-height:30vh;
+  max-width:15vh;
+  font-size: 1.2vh;
 
 }
 .row{
   padding-left: 0;
 }
 .quote{
-  font-size: 1.8vh;
+  font-size: 1.5vh;
 }
 }
