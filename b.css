@@ -1,72 +1,38 @@
-img{
-   filter: blur(4px);
-  height: 93vh;
 
+body{
+  background-image: url('t.jpg');
+  background-size:cover;
 }
 #hello{
-  padding: 0;
-  margin:0;
-  position: absolute;
-  left:5vw;
-  font-family: 'Ubuntu';
-  top:10vh;
+  padding-left: 10px;
+  padding-top: 10px;
   color: #fff;
-  text-align: center;
+  font-family: "Ubuntu";
   text-shadow: 0 0 3px #fff, 0 0 6px #fff, 0 0 9px #03a9f4, 0 0 12px #03a9f4, 0 0 15px #03a9f4, 0 0 18px #03a9f4, 0 0 21px #03a9f4;
+  z-index: 2;
 
 }
-
-
-
 
 #this{
-  padding: 0;
-  margin:0;
-  position: absolute;
-  left:5vw;
-  font-family: "Ubuntu";
-  top:19vh;
   color: white;
+  padding: 10px;
+}
+
+div{
+  margin: 0;
+  padding: 0;
 }
 
 
-.jumbotron{
-  background-image: url('u.jpg');
-  background-size: auto;
-  font-family: "Ubuntu";
+.bd{
+  color: #fff;
+  border: solid 1px white;
+  background-color: rgba(0, 0, 0, 0.4);
+
+
 }
 
-@media only screen and (max-width: 780px) {
 
-  #this{
-    font-size: 2vh;
-    top: 7.6vh;
-    left:20vw;
-    text-align: center;
-
-  }
-  #hello{
-      font-size: 2.3vh;
-      top:3vh;
-      left:30vw;
-  }
-  #cardim{
-
-    height: 16vh;
-    }
-
-    .card{
-      width:40vw;
-      left:30vw;
-      top:0vh;
-
-      }
-      .jumbotron{
-        width:40vw;
-        height:20vh;
-        font-size: 2vh;
-        position: absolute;
-        top:5vh;
-      }
-
+.intro{
+text-align: center;
 }
