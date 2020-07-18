@@ -54,7 +54,7 @@ text-align: center;
 }
 
 @media only screen and (max-width: 768px) {
-.card-title, .card-text{
+.card-title, .card-text,span{
 
   font-size: 1.2vh;
 
