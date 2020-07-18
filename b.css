@@ -1,6 +1,6 @@
 
 body{
-  background-image: url('t.jpg');
+  background-image: url('s.jpg');
   background-size:cover;
 }
 #hello{
@@ -16,6 +16,8 @@ body{
 #this{
   color: white;
   padding: 10px;
+  font-family: "Ubuntu";
+
 }
 
 div{
@@ -27,7 +29,9 @@ div{
 .bd{
   color: #fff;
   border: solid 1px white;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.8);
+  font-family: "Ubuntu";
+
 
 
 }
